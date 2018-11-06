@@ -1,0 +1,24 @@
+.parallax-parent {
+    background: url("../images/pic1.jpg") fixed;
+    width: 100vw;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+.parallax-child {
+    padding: 400px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    box-shadow: 5px 5px 5px black;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: orange;
+    margin: 400px;
+}
