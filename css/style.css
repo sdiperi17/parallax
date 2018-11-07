@@ -19,6 +19,27 @@ h2 {
 h1 {
     font-size: 2rem;
     text-align: center;
-    color: orange;
     margin: 400px;
+}
+
+.non-parallax {
+    background: url("../images/original.gif");
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100vw;
+    height: 80vh;
+}
+
+.background-img2 {
+    background-image: url("/images/pic3.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100vw;
+    height: 80vh;
+}
+
+.back-color {
+    background: rgba(63, 127, 191, 0.1);
+    margin: 0;
+    height: 300px;
 }
